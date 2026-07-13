@@ -2,7 +2,7 @@
 name: My Skill Market
 description: Agent Skills Market - 轻量级 AI Agent Skills 市场
 version: 1.0.0
-registry: https://github.com/doingdd/my-skill
+registry: https://github.com/hanzhangzzz/my-skill
 ---
 
 # My Skill Market Registry
@@ -22,7 +22,7 @@ registry: https://github.com/doingdd/my-skill
   "keywords": ["harness", "automation", "inspection", "workflow", "CI/CD"],
   "compatibility": "Claude Code",
   "install_path": "harness/",
-  "repo": "https://github.com/doingdd/my-skill",
+  "repo": "https://github.com/hanzhangzzz/my-skill",
   "license": "MIT"
 }
 ```
@@ -38,7 +38,7 @@ registry: https://github.com/doingdd/my-skill
   "keywords": ["gpt-image2", "image generation", "prompt", "avatar", "sticker", "infographic", "visual design", "evaluation"],
   "compatibility": "Claude Code, Codex",
   "install_path": "gpt-image2-prompt-director/",
-  "repo": "https://github.com/doingdd/my-skill",
+  "repo": "https://github.com/hanzhangzzz/my-skill",
   "license": "MIT"
 }
 ```
@@ -54,7 +54,7 @@ registry: https://github.com/doingdd/my-skill
   "keywords": ["wechat", "weixin", "公众号", "微信公众号", "markdown", "下载", "article"],
   "compatibility": "Claude Code, Codex, Hermes Agent",
   "install_path": "wechat-article-md-local/",
-  "repo": "https://github.com/doingdd/my-skill",
+  "repo": "https://github.com/hanzhangzzz/my-skill",
   "license": "MIT"
 }
 ```
@@ -70,7 +70,7 @@ registry: https://github.com/doingdd/my-skill
   "keywords": ["x", "twitter", "下载", "markdown", "推文", "视频转录", "whisper", "xreach"],
   "compatibility": "Claude Code, Codex, Hermes Agent",
   "install_path": "x-article-download/",
-  "repo": "https://github.com/doingdd/my-skill",
+  "repo": "https://github.com/hanzhangzzz/my-skill",
   "license": "MIT"
 }
 ```
@@ -86,7 +86,7 @@ registry: https://github.com/doingdd/my-skill
   "keywords": ["xiaohongshu", "小红书", "下载", "视频", "转录", "whisper", "逐字稿", "markdown"],
   "compatibility": "Claude Code, Codex, Hermes Agent",
   "install_path": "xiaohongshu-downloader/",
-  "repo": "https://github.com/doingdd/my-skill",
+  "repo": "https://github.com/hanzhangzzz/my-skill",
   "license": "MIT"
 }
 ```
@@ -98,12 +98,12 @@ Agent 可以通过以下方式安装本市场中的 skill：
 ### 自然语言描述（推荐）
 
 ```
-请从 https://github.com/doingdd/my-skill 安装 harness skill
+请从 https://github.com/hanzhangzzz/my-skill 安装 harness skill
 描述：这是一个三角色 AI 自治循环系统，包含 Inspector、Worker、Reviewer，通过 TODO.md 共享看板驱动持续改进
 ```
 
 ```
-请从 https://github.com/doingdd/my-skill 安装 gpt-image2-prompt-director skill
+请从 https://github.com/hanzhangzzz/my-skill 安装 gpt-image2-prompt-director skill
 描述：这是一个 GPT image2 提示词导演，可从弱点子生成高质量生图 brief，并用 benchmark/hard gates 做评测
 ```
 
@@ -111,37 +111,37 @@ Agent 可以通过以下方式安装本市场中的 skill：
 
 ```
 安装 skill：harness
-来源：https://github.com/doingdd/my-skill
+来源：https://github.com/hanzhangzzz/my-skill
 路径：harness/
 ```
 
 ```json
 安装 skill：gpt-image2-prompt-director
-来源：https://github.com/doingdd/my-skill
+来源：https://github.com/hanzhangzzz/my-skill
 路径：gpt-image2-prompt-director/
 ```
 
 ```json
 安装 skill：harness
-来源：https://github.com/doingdd/my-skill
+来源：https://github.com/hanzhangzzz/my-skill
 路径：harness/
 ```
 
 ```json
 安装 skill：wechat-article-md-local
-来源：https://github.com/doingdd/my-skill
+来源：https://github.com/hanzhangzzz/my-skill
 路径：wechat-article-md-local/
 ```
 
 ```json
 安装 skill：x-article-download
-来源：https://github.com/doingdd/my-skill
+来源：https://github.com/hanzhangzzz/my-skill
 路径：x-article-download/
 ```
 
 ```json
 安装 skill：xiaohongshu-downloader
-来源：https://github.com/doingdd/my-skill
+来源：https://github.com/hanzhangzzz/my-skill
 路径：xiaohongshu-downloader/
 ```
 
@@ -164,12 +164,12 @@ Agent 可以通过以下方式安装本市场中的 skill：
 ### NPX 安装格式
 
 ```bash
-npx github:doingdd/my-skill/harness
+npx github:hanzhangzzz/my-skill/harness
 ```
 
 或克隆后本地安装：
 
 ```bash
-git clone https://github.com/doingdd/my-skill
+git clone https://github.com/hanzhangzzz/my-skill
 cp -r my-skill/harness ~/.claude/skills/
 ```

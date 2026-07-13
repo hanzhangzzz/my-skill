@@ -132,7 +132,7 @@ grep -r "/Users/" <skill-name>/ || echo "无用户路径 ✓"
   "keywords": ["keyword1", "keyword2"],
   "compatibility": "Claude Code",
   "install_path": "<skill-name>/",
-  "repo": "https://github.com/doingdd/my-skill",
+  "repo": "https://github.com/hanzhangzzz/my-skill",
   "license": "MIT"
 }
 ```

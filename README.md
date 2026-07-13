@@ -19,7 +19,7 @@
 ### 复制到 Codex
 
 ```bash
-git clone https://github.com/doingdd/my-skill.git
+git clone https://github.com/hanzhangzzz/my-skill.git
 cd my-skill
 cp -r gpt-image2-prompt-director ~/.codex/skills/
 cp -r harness ~/.codex/skills/
@@ -31,7 +31,7 @@ cp -r xiaohongshu-downloader ~/.codex/skills/
 ### 复制到 Claude Code
 
 ```bash
-git clone https://github.com/doingdd/my-skill.git
+git clone https://github.com/hanzhangzzz/my-skill.git
 cd my-skill
 cp -r gpt-image2-prompt-director ~/.claude/skills/
 cp -r harness ~/.claude/skills/
@@ -47,7 +47,7 @@ cp -r xiaohongshu-downloader ~/.claude/skills/
 ```text
 安装 skill：gpt-image2-prompt-director
 描述：把普通点子升级成高质量 GPT image2 生图提示词，并提供头像、表情包、信息图、卡片、海报、产品图等任务的评测门禁
-安装源：https://github.com/doingdd/my-skill
+安装源：https://github.com/hanzhangzzz/my-skill
 ```
 
 或：
@@ -55,7 +55,7 @@ cp -r xiaohongshu-downloader ~/.claude/skills/
 ```text
 安装 skill：harness
 描述：三角色 AI 自治循环系统，包含 Inspector、Worker、Reviewer，通过 TODO.md 共享看板驱动持续改进
-安装源：https://github.com/doingdd/my-skill
+安装源：https://github.com/hanzhangzzz/my-skill
 ```
 
 或：
@@ -63,7 +63,7 @@ cp -r xiaohongshu-downloader ~/.claude/skills/
 ```text
 安装 skill：wechat-article-md-local
 描述：微信公众号文章下载为本地 Markdown，支持图片本地化，收到 mp.weixin.qq.com 链接自动触发
-安装源：https://github.com/doingdd/my-skill
+安装源：https://github.com/hanzhangzzz/my-skill
 ```
 
 或：
@@ -71,7 +71,7 @@ cp -r xiaohongshu-downloader ~/.claude/skills/
 ```text
 安装 skill：x-article-download
 描述：X/Twitter 内容下载为 Markdown，支持单条推文和整账号批量下载，自动转录视频口播
-安装源：https://github.com/doingdd/my-skill
+安装源：https://github.com/hanzhangzzz/my-skill
 ```
 
 或：
@@ -79,7 +79,7 @@ cp -r xiaohongshu-downloader ~/.claude/skills/
 ```text
 安装 skill：xiaohongshu-downloader
 描述：小红书视频下载 + Whisper 口播转录为 Markdown 逐字稿，中文直接保存，英文翻译后保存
-安装源：https://github.com/doingdd/my-skill
+安装源：https://github.com/hanzhangzzz/my-skill
 ```
 
 ## GPT Image2 Prompt Director
